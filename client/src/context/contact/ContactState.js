@@ -1,6 +1,5 @@
 import React, { useReducer} from 'react';
 import {v4 as uuidv4} from 'uuid';
-// import { uuid } from 'uuidv4';
 import ContactContext from './contactContext';
 import ContactReducer from './contactReducer';
 
@@ -11,10 +10,8 @@ import {
     CLEAR_CURRENT,
     UPDATE_CONTACT,
     CLEAR_FILTER,
-    FILTER_CONTACT,
     FILTER_CONTACTS
 } from '../types';
-import { text } from 'express';
 
 
 const ContactState = props => {
