@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://dev-vir:vipin1234@contactsaver-hsnas.mongodb.net/test?retryWrites=true&w=majority",
+    "jwtSecret": "secret"
+}
