@@ -11,11 +11,7 @@ connectDB();
 // Init MiddleWare
 app.use(express.json({extended: false}))
 
-app.get('/', (req, res) => {
-    res.json({
-        // msg: "Welcome to the Contact Manager APi",
-    })
-})
+
 
 // Routes
 app.use('/api/users', require('./routes/users'));
