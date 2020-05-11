@@ -63,7 +63,7 @@ const Login = (props) => {
                 </div>
                 <div className="form-group">
                     <label htmlFor="password">Password</label>
-                    <input type="text" name="password" value={password} onChange={onChange} required />
+                    <input type="password" name="password" value={password} onChange={onChange} required />
                 </div>
                 <input type="submit" value="Login" className="btn btn-primary btn-block"/>
             </form>
